@@ -1,0 +1,14 @@
+@import 'vars';
+@import 'fonts';
+
+@import './src/components/GithubSearch/GithubSearch.scss';
+@import './src/components/SearchInput/SearchInput.scss';
+@import './src/components/SearchResultList/SearchResultList.scss';
+@import './src/components/SearchResultItem/SearchResultItem.scss';
+
+body {
+	font-size: $mainFontSize;
+	font-family: $mainFont;
+	padding: 0px;
+	margin: 0;
+}

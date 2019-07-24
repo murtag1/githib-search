@@ -1,0 +1,10 @@
+.search-result-list {
+  border: 1px solid #000;
+  border-top: none;
+  display: none;
+  overflow-y: scroll;
+  max-height: 400px;
+  &_active {
+    display: block;
+  }
+}

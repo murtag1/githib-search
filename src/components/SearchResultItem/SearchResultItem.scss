@@ -1,0 +1,17 @@
+.search-result-item {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #eee;
+  }
+  &__stars, &__watchers, &__link {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  &__link {
+    text-decoration: none;
+    max-width: 150px;
+    width: 100%;
+  }
+}

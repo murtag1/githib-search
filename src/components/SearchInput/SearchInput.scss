@@ -1,0 +1,29 @@
+.search-input {
+  width: 100%;
+  position: relative;
+  &__input {
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    outline: none;
+    &:focus {
+      border-color: #000;
+    }
+  }
+  &__load-icon {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    &_active {
+      display: block;
+    }
+  }
+}
